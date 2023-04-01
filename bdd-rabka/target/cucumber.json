@@ -1,0 +1,202 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-01T04:11:51.856Z",
+        "line": 3,
+        "name": "I want to open the-internet.herokuapp.com",
+        "description": "",
+        "id": "search-google;i-want-to-open-the-internet.herokuapp.com",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2014000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Open browser",
+            "match": {
+              "location": "StepDef.SearchGoogle.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5718000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open website the-internet.herokuapp.com",
+            "match": {
+              "location": "StepDef.SearchGoogle.openWebsite()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Located on the-internet.herokuapp.com",
+            "match": {
+              "location": "StepDef.SearchGoogle.locatedOnTheInternet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 433000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click \"status-code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status-code\"",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDef.SearchGoogle.iClick(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 377000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open status code",
+            "match": {
+              "location": "StepDef.SearchGoogle.openStatusCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 765000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Showing result related with \"status-code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status-code\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDef.SearchGoogle.showingResultRelatedWith(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Google",
+    "description": "",
+    "id": "search-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SearchGoogle.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-01T04:12:01.337Z",
+        "line": 3,
+        "name": "I want to login in the-internet.herokuapp.com",
+        "description": "",
+        "id": "form-authentication-in-the-internet.herokuapp.com;i-want-to-login-in-the-internet.herokuapp.com",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1365000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Open browser chromedriver",
+            "match": {
+              "location": "StepDef.loginform.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4059000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open website the-internet.herokuapp.comm",
+            "match": {
+              "location": "StepDef.loginform.openWebsite()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Located on the-internet.herokuapp.comm",
+            "match": {
+              "location": "StepDef.loginform.locatedOnTheInternet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 905000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Form Authentication",
+            "match": {
+              "location": "StepDef.loginform.iClickFormAuthentication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 887000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open Form Authentication",
+            "match": {
+              "location": "StepDef.loginform.openFormAuthentication()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 704000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Showing result related with Form Authentication",
+            "match": {
+              "location": "StepDef.loginform.showingResultRelatedWithFormAuthentication()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Form Authentication in the-internet.herokuapp.com",
+    "description": "",
+    "id": "form-authentication-in-the-internet.herokuapp.com",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/loginform.feature",
+    "tags": []
+  }
+]
